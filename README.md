@@ -1,4 +1,4 @@
-# ESM immport process.env.* bug
+# ESM import process.env.* bug
 
 This minimal reproducible repository with a bug description on https://github.com/standard-things/esm/issues/515.
 
@@ -62,4 +62,4 @@ NODE_ENV in ./db/knexInit.js: test
 
 ## Conclusion
 
-I expect `NODE_ENV` is set to `test` since it is set top on all following import. But it's not possible in `import-process-fail` scenario. I need to require seperated "module" where I set `NODE_ENV` as is it in `import-process-ok` scenario.
+I expect `NODE_ENV` is set to `test` since it is set top on all following import. But it's not possible in `import-process-fail` scenario. I need to require seperated "module" where I have to set `NODE_ENV` as is it in `import-process-ok` scenario.
