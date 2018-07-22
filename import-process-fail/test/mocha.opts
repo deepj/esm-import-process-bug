@@ -1,0 +1,4 @@
+--require esm
+--require ./test/init
+--recursive
+--check-leaks

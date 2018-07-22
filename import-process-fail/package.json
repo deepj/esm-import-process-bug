@@ -1,0 +1,13 @@
+{
+  "env": {
+    "mocha": true
+  },
+  "scripts": {
+    "test": "node -r esm ./node_modules/.bin/mocha test"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "esm": "^3.0.72",
+    "mocha": "^5.2.0"
+  }
+}
